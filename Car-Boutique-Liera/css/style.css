@@ -46,7 +46,7 @@
 }
 /* Estilo para el fondo de Home */
 .home{
-  background-image: url("/Car-Boutique-Liera/img/backgroundhome_1920.png");
+  background-image: url("../img/backgroundhome_1920.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -54,12 +54,12 @@
 }
 @media (width-max:750px) {
   .home{
-    background-image: url("/Car-Boutique-Liera/img/backgroundhome_650.png");
+    background-image: url("../img/backgroundhome_650.png");
   }
 }
 @media (width-max:1000px) {
   .home{
-    background-image: url("/Car-Boutique-Liera/img/backgroundhome_800.png");
+    background-image: url("../img/backgroundhome_800.png");
   }
 }
 
@@ -132,7 +132,7 @@
   color: black;
 }
 .aboutUs{
-  background-image: url("/Car-Boutique-Liera/img/background-about.png");
+  background-image: url("../img/background-about.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

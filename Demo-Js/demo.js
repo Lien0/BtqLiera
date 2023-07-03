@@ -67,3 +67,11 @@ console.log(x);
 var y = 25.365;
 var d = y.toPrecision(4);
 console.log(d);
+
+function Student(name, clas, house) {
+  this.name = name;
+  this.clas = clas;
+  this.housr = house;
+}
+
+var Student1 = new Student("Raul", 12, "Red");

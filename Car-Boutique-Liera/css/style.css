@@ -246,7 +246,22 @@ para que las letras blancas se resalten y se pueda ver */
   text-align: center;
   height: 385px;
 }
-
+.email-container{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: center;
+  padding: 4%;
+}
+#Comments{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#TextContact{
+  height: 80px;
+  width: 250%;
+}
 
 .feedcontainer{
   background-color: rgb(170, 247, 221);

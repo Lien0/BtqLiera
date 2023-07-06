@@ -73,6 +73,7 @@
     background-image: url("../img/Antique-car-movil_460px.png");
     background-size: 100vh;
     background-attachment: inherit;
+    overflow: hidden;
   }
   .text-container{
     color:  rgb(25, 0, 252);
@@ -121,6 +122,7 @@
   background-size: cover;
   background-position: center;
   border-radius: 15px;
+  overflow: hidden;
 }
 .nav-bar-about ul{
   position: absolute;
@@ -228,6 +230,8 @@ para que las letras blancas se resalten y se pueda ver */
   box-shadow:  0px 1px 0px 1px rgba(0, 0, 0, 15%);
   padding: 0;
   border: 0;
+  border-radius: 15px;
+  overflow: hidden;
 }
 .contact-container{
   margin-top: 150px;

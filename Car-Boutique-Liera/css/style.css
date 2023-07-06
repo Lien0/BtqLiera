@@ -262,6 +262,11 @@ para que las letras blancas se resalten y se pueda ver */
   height: 80px;
   width: 250%;
 }
+@media (max-width:535px){
+  #TextContact{
+    width: 200%;
+  }
+}
 
 .feedcontainer{
   background-color: rgb(170, 247, 221);

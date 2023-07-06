@@ -158,8 +158,8 @@
   .nav-bar-abaout ul{
     position: relative;
     top: 15px;
-    right: 90%;
-    left: 10%;
+    right: 80%;
+    left: 20%;
   }
   .nav-bar-about ul li a{
     font-size: 50%;

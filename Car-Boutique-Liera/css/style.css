@@ -30,21 +30,8 @@
   font-family: 'Merriweather', serif;
 }
 
-@media (max-width: 420px){
-  .nav-bar div{
-    display: none;
-  }
-  .nav-bar ul{
-    position: relative;
-    top: 15px;
-    right: 90%;
-    left: 10%;
-  }
-  .nav-bar ul li a{
-    font-size: 50%;
-  }
-}
-@media (min-width:420px) and (max-width:535px){
+
+@media (max-width:535px){
   .nav-bar div {
     display: none;
   }
@@ -53,6 +40,9 @@
     top: 15px;
     right: 80%;
     left: 20%;
+  }
+  .nav-bar ul li a{
+    font-size: 50%;
   }
 }
 
@@ -100,10 +90,10 @@
   font-size: 20px;
 }
 
-@media (max-width:420px) {
+@media (max-width:535px) {
   .home{
     background-image: url("../img/Antique-car-movil_460px.png");
-    background-size: inherit;
+    background-size: 100vh;
     background-attachment: inherit;
   }
   .text-container{
@@ -111,7 +101,7 @@
   }
   
 }
-@media (min-width:420px) and (max-width:980px) {
+@media (min-width:535px) and (max-width:980px) {
   .home{
     background-image: url("../img/backgroundhome_800.png");
   }
@@ -141,28 +131,9 @@
   color: black;
   
 }
-@media (max-width: 570px) {
-  .nav-bar-about div{
-    display: none;
-  }
-}
-.nav-bar-about ul{
-  position: absolute;
-  right: 5px;
-}
-@media (max-width: 570px) {
-  .nav-bar-about ul{
-    position: relative;
-    top: 30%;
-    bottom: 70%;
-    right: 90%;
-    left: 10%;
-  }
-}
 .nav-bar-about ul li{
   display: inline-block;
 }
-
 .nav-bar-about ul li a{
   padding: 5px;
   font-size: 12px;
@@ -175,6 +146,28 @@
   background-size: cover;
   background-position: center;
 }
+.nav-bar-about ul{
+  position: absolute;
+  right: 5px;
+}
+
+@media (max-width: 535px) {
+  .nav-bar-about div{
+    display: none;
+  }
+  .nav-bar-abaout ul{
+    position: relative;
+    top: 15px;
+    right: 90%;
+    left: 10%;
+  }
+  .nav-bar-about ul li a{
+    font-size: 50%;
+  }
+}
+
+
+
 /* Ajustamos todo para que quede centrado y colocamos un fondo
 para que las letras blancas se resalten y se pueda ver */
 .aboutcontent{
@@ -194,6 +187,8 @@ para que las letras blancas se resalten y se pueda ver */
   justify-content: center;
   color: white;
 }
+
+
 /* Comenzamos con el estilo de la pagina de servicios */
 .services-content h1{
   text-align: center;

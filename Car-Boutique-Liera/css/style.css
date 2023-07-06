@@ -66,29 +66,7 @@
   height: 100vh;
   font-family: 'Merriweather', serif;
 }
-.feedcontainer{
-  background-color: rgb(170, 247, 221);
-  background-size: 100%;
-  border-radius: 15px;
-  margin-top: 5px;
-}
-.feed{
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-}
-#marca{
-  padding: 5%;
-  font-weight: bolder;
-  font-family: 'Merriweather', serif;
-  font-size: 30px;
-}
-#social, #aviso {
-  padding: 5%;
-  font-weight: bold;
-  font-family: 'Merriweather', serif;
-  font-size: 20px;
-}
+
 
 @media (max-width:535px) {
   .home{
@@ -106,12 +84,7 @@
     background-image: url("../img/backgroundhome_800.png");
   }
 }
-@media (max-width: 680px){
-  .feed{
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 
 
 /* EMPIEZA ABOUT US */
@@ -139,12 +112,15 @@
   font-size: 12px;
   font-weight: bolder;
   color: black;
+  font-family: 'Merriweather', serif;
+
 }
 .aboutUs{
   background-image: url("../img/background-about.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-radius: 15px;
 }
 .nav-bar-about ul{
   position: absolute;
@@ -155,7 +131,7 @@
   .nav-bar-about div{
     display: none;
   }
-  .nav-bar-abaout ul{
+  .nav-bar-about ul{
     position: relative;
     top: 15px;
     right: 80%;
@@ -176,7 +152,9 @@ para que las letras blancas se resalten y se pueda ver */
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 97vh;
+  height: 100vh;
+  font-family: 'Merriweather', serif;
+
 }
 
 .aboutcontent h1{
@@ -193,7 +171,6 @@ para que las letras blancas se resalten y se pueda ver */
 .services-content h1{
   text-align: center;
   font-size: 35px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .card-container{
@@ -260,3 +237,32 @@ para que las letras blancas se resalten y se pueda ver */
 }
 
 
+.feedcontainer{
+  background-color: rgb(170, 247, 221);
+  background-size: 100%;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+.feed{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.marca{
+  padding: 5%;
+  font-weight: bolder;
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+}
+.social, .aviso {
+  padding: 5%;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
+@media (max-width: 680px){
+  .feed{
+    display: flex;
+    flex-direction: column;
+  }
+}
